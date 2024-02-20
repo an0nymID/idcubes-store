@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', 'Poppins', sans-serif;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  margin: auto;
+  width: 80vw;
+  padding: 37px 0px 25px;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  line-height: 2;
+}
+
+ul {
+  padding: 0;
+  font-size: 12px;
+  color: #f8f8f8;
+}
+
+.footer__link__help__title {
+  font-size: 13px;
+  font-weight: 600;
+  filter: contrast(1.5);
+}
+
+.form__input__email {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.input__email {
+  height: 38px;
+  width: 200px;
+  padding: 0 0 0 16px;
+  color: rgb(24, 24, 24);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  outline: 0;
+}
+
+.input__email__button {
+  background-color: rgb(249, 120, 3);
+  height: 38px; 
+  border: none;
+  outline: 0;
+  padding: 11px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.footer__copy__credit {
+  padding: 22px 0 66px;
+  margin: auto;
+  width: 80vw;
+}
+
+.footer__copyright {
+  color: #969696;
+  font-size: 12px;
+}
+
+.footer__credit__card {
+  display: flex;
+  gap: 15px;
+}
+
