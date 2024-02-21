@@ -7,7 +7,7 @@ body {
 
 footer {
   color: white;
-  background-color: black;
+  background-color: #232323;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -21,22 +21,51 @@ footer {
   padding: 37px 0px 25px;
 }
 
-li {
+.u__list__footer__link li {
   text-decoration: none;
   list-style: none;
   line-height: 2;
 }
 
-ul {
+.u__list__footer__link {
   padding: 0;
   font-size: 12px;
   color: #f8f8f8;
+}
+
+
+.footer__logo__sosmed__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.footer__logo__sosmed__wrapper a {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+}
+
+.footer__logo__sosmed__wrapper a svg:hover {
+  fill: white;
 }
 
 .footer__link__help__title {
   font-size: 13px;
   font-weight: 600;
   filter: contrast(1.5);
+  padding-bottom: 12px;
+  margin: 0;
+}
+
+.footer__link__sosmed__title {
+  margin: 0 0 10px;
+  padding-bottom: 12px;
 }
 
 .form__input__email {
